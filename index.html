@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -42,5 +42,55 @@
   </div>
 
 <script src="script.js"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    html, body{
+      text-align: center;
+      height:100%;
+    }
+    .biru-muda{
+      background-color: lightblue;
+    }
+    .kotak{
+      width:25px;
+      height: 25px;
+      margin: 10px auto;
+      border: 1px solid black;
+    }
+    .merah{
+      background-color:red;
+    }
+    .hijau{
+      background-color:green;
+    }
+    .biru{
+      background-color: blue;
+    }
+  </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Latihan Dom</title>
+</head>
+<body>
+  <h1>bermain dengan warna</h1>
+  <button class="gantiWarna" type="button">ganti warna</button>
+
+  <br><br>
+<div class="kotak merah"></div>
+<input type="range" name="sMerah" min="0" max="255"><br>
+<div class="kotak hijau"></div>
+<input type="range" name="sHijau" min="0" max="255"><br>
+<div class="kotak biru"></div>
+<input type="range" name="sBiru" min="0" max="255"><br>
+
+<div class="kotak pengukur"></div>
+
+  <script src="script.js"></script>
 </body>
 </html>
